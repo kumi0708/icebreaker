@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		98FAB863C3997DCD46DF2DC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07015BCF3C680886983B6884 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66706CD8C665543E5E129DD1;
+			remoteInfo = IceBreaker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9417E2FCFD3F4CD33DFB3621 /* IceBreaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IceBreaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98DFF1513A61C880DB1FAA52 /* IceBreakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IceBreakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A51E4ADE3A5C33EFBCF22AEE /* IceBreaker */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = IceBreaker;
+			sourceTree = "<group>";
+		};
+		9BEC71E7D5393C85B284C3A8 /* IceBreakerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = IceBreakerTests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9446BED0E366D3E1EB44EB0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88E3D719B1206F3A451CB46B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		239DB0063A7A6D06414932A6 = {
+			isa = PBXGroup;
+			children = (
+				A51E4ADE3A5C33EFBCF22AEE /* IceBreaker */,
+				9BEC71E7D5393C85B284C3A8 /* IceBreakerTests */,
+				118B32849E5E3B14974B2995 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		118B32849E5E3B14974B2995 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9417E2FCFD3F4CD33DFB3621 /* IceBreaker.app */,
+				98DFF1513A61C880DB1FAA52 /* IceBreakerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66706CD8C665543E5E129DD1 /* IceBreaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14B8B222110BEFC4EBE7FDAB /* Build configuration list for PBXNativeTarget "IceBreaker" */;
+			buildPhases = (
+				6902C2E5E0A2402027143B51 /* Sources */,
+				9446BED0E366D3E1EB44EB0B /* Frameworks */,
+				101D9566C7D897BF63E2C6CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A51E4ADE3A5C33EFBCF22AEE /* IceBreaker */,
+			);
+			name = IceBreaker;
+			productName = IceBreaker;
+			productReference = 9417E2FCFD3F4CD33DFB3621 /* IceBreaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A37D7E5627B390E88590117E /* IceBreakerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1380250C6F185980B9E72B64 /* Build configuration list for PBXNativeTarget "IceBreakerTests" */;
+			buildPhases = (
+				6B561F8042B4C0B332193C93 /* Sources */,
+				88E3D719B1206F3A451CB46B /* Frameworks */,
+				8E4E62E85F1F7241A734D26B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				899531C8C69AFE71CE5180EB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9BEC71E7D5393C85B284C3A8 /* IceBreakerTests */,
+			);
+			name = IceBreakerTests;
+			productName = IceBreakerTests;
+			productReference = 98DFF1513A61C880DB1FAA52 /* IceBreakerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07015BCF3C680886983B6884 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					66706CD8C665543E5E129DD1 = {
+						CreatedOnToolsVersion = 27.2;
+					};
+					A37D7E5627B390E88590117E = {
+						CreatedOnToolsVersion = 27.2;
+						TestTargetID = 66706CD8C665543E5E129DD1;
+					};
+				};
+			};
+			buildConfigurationList = E239F13121C1BA1B4F66D197 /* Build configuration list for PBXProject "IceBreaker" */;
+			developmentRegion = ja;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				ja,
+				Base,
+			);
+			mainGroup = 239DB0063A7A6D06414932A6;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 118B32849E5E3B14974B2995 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66706CD8C665543E5E129DD1 /* IceBreaker */,
+				A37D7E5627B390E88590117E /* IceBreakerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		101D9566C7D897BF63E2C6CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E4E62E85F1F7241A734D26B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6902C2E5E0A2402027143B51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B561F8042B4C0B332193C93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		899531C8C69AFE71CE5180EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66706CD8C665543E5E129DD1 /* IceBreaker */;
+			targetProxy = 98FAB863C3997DCD46DF2DC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D689B54E0D19DB64694B0BC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6B4B6A9679799AA27E687205 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89DD2892C927D00F83C47F31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 7F727685BQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "アイスブレイク";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shiraiatu.icebreaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3F32BE71EF46106615FB921E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 7F727685BQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "アイスブレイク";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shiraiatu.icebreaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		6CA15DB3F670BFAF54371ED9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shiraiatu.icebreaker.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IceBreaker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IceBreaker";
+			};
+			name = Debug;
+		};
+		4F735EBC12CE56D6B2437276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shiraiatu.icebreaker.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IceBreaker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IceBreaker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E239F13121C1BA1B4F66D197 /* Build configuration list for PBXProject "IceBreaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D689B54E0D19DB64694B0BC6 /* Debug */,
+				6B4B6A9679799AA27E687205 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14B8B222110BEFC4EBE7FDAB /* Build configuration list for PBXNativeTarget "IceBreaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89DD2892C927D00F83C47F31 /* Debug */,
+				3F32BE71EF46106615FB921E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1380250C6F185980B9E72B64 /* Build configuration list for PBXNativeTarget "IceBreakerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CA15DB3F670BFAF54371ED9 /* Debug */,
+				4F735EBC12CE56D6B2437276 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07015BCF3C680886983B6884 /* Project object */;
+}

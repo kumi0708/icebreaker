@@ -1,0 +1,540 @@
+[
+  {
+    "id": "gesture_relay",
+    "title": "ジェスチャー伝言ゲーム",
+    "summary": "声を出さずに動きだけでお題を伝える、笑い必須のチーム戦！",
+    "minutes": "約10〜15分",
+    "excitement": 5,
+    "preparation": "お題を書いたメモ（なくてもOK）",
+    "people": ["medium", "large"],
+    "audiences": ["preschool", "elem_low", "elem_high", "junior_high", "high_school", "student", "family", "mixed"],
+    "venues": ["medium_space", "wide", "outdoor"],
+    "steps": [
+      { "title": "1列に並ぼう", "description": "5〜8人のチームを作り、全員同じ方向を向いて1列に並びます。", "symbol": "person.3.fill" },
+      { "title": "動きだけで伝える", "description": "一番後ろの人がお題を見て、前の人の肩をトントン。声を出さずにジェスチャーで伝えます。", "symbol": "hand.raised.fill" },
+      { "title": "先頭の人が回答", "description": "一番前まで伝わったら答えを発表！正解ならチームにポイント。", "symbol": "megaphone.fill" }
+    ],
+    "hostTip": "最初に司会がお手本を1回見せると、恥ずかしさが減って動きが大きくなります。",
+    "topics": [
+      { "text": "バナナを食べるゴリラ" },
+      { "text": "ペンギンの歩き方" },
+      { "text": "熱々のおでんを食べる人" },
+      { "text": "カエルがジャンプして虫を食べる", "audiences": ["preschool", "elem_low", "elem_high", "family"] },
+      { "text": "ホームランを打つ野球選手" },
+      { "text": "自転車で坂道を一生懸命こぐ人" },
+      { "text": "満員電車でつり革につかまる人", "audiences": ["high_school", "student", "mixed"] },
+      { "text": "重たいスイカを持ち上げる人" }
+    ]
+  },
+  {
+    "id": "birthday_line",
+    "title": "順番並び替えチャレンジ（バースデーライン）",
+    "summary": "お題の順番どおりに1列に並ぶ協力ゲーム。しゃべらずに並べたら大成功！",
+    "minutes": "約5〜10分",
+    "excitement": 4,
+    "preparation": "なし",
+    "people": ["medium", "large"],
+    "audiences": ["elem_low", "elem_high", "junior_high", "high_school", "student", "business", "family", "mixed"],
+    "venues": ["medium_space", "wide", "outdoor"],
+    "steps": [
+      { "title": "並び方のルールを確認", "description": "「今から決められた順番に1列に並びます」と合図。難しくしたいときは声なしルールにします。", "symbol": "speaker.slash.fill" },
+      { "title": "身振りで伝え合う", "description": "指の本数やジェスチャーで自分の数字や情報を教え合い、正しい位置に移動します。", "symbol": "hand.point.up.left.fill" },
+      { "title": "端から答え合わせ", "description": "並び終わったら先頭から順番に声に出して発表。合っていたら全員で拍手！", "symbol": "hands.clap.fill" }
+    ],
+    "hostTip": "人数が多いときは制限時間（2〜3分）を決めると一体感が出ます。",
+    "topics": [
+      { "text": "誕生日順（1月1日〜12月31日）※おしゃべり禁止" },
+      { "text": "名前の五十音順" },
+      { "text": "今朝起きた時間が早い順" },
+      { "text": "家から今日の会場までの距離が近い順", "audiences": ["high_school", "student", "business", "mixed"] },
+      { "text": "入社日（入った日）が早い順", "audiences": ["business"] },
+      { "text": "背の低い順 ※しゃべってOK", "audiences": ["elem_low", "elem_high", "family"] },
+      { "text": "好きな数字の小さい順" }
+    ]
+  },
+  {
+    "id": "common_points",
+    "title": "共通点探しトーク",
+    "summary": "座ったままでもOK！ペアや少人数で話して「みんなの共通点」をたくさん見つけよう。",
+    "minutes": "約10分",
+    "excitement": 3,
+    "preparation": "なし（メモ用紙があると便利）",
+    "people": ["small", "medium", "large"],
+    "audiences": ["elem_high", "junior_high", "high_school", "student", "business", "family", "mixed"],
+    "venues": ["seated", "medium_space", "outdoor"],
+    "steps": [
+      { "title": "ペアかグループを作る", "description": "2〜4人で組になり、お互いに軽く名前を伝えます。", "symbol": "person.2.fill" },
+      { "title": "制限時間で共通点探し", "description": "3分間で、全員に当てはまる共通点をできるだけ多く探して書き出します。", "symbol": "timer" },
+      { "title": "一番意外な共通点を発表", "description": "見つけた数と「一番意外だった共通点」をグループごとに発表します。", "symbol": "sparkles" }
+    ],
+    "hostTip": "「見た目でわかるもの（メガネなど）はノーカウント」にすると会話が深まります。",
+    "topics": [
+      { "text": "なんでもOK！とにかく数をたくさん見つける" },
+      { "text": "「好きな食べ物」の共通点を探す" },
+      { "text": "「休日の過ごし方・趣味」の共通点を探す" },
+      { "text": "「子どものころハマっていたこと」の共通点を探す" },
+      { "text": "「仕事で大事にしていること」の共通点を探す", "audiences": ["business"] },
+      { "text": "「好きな給食メニュー」の共通点を探す", "audiences": ["elem_high", "junior_high", "family"] }
+    ]
+  },
+  {
+    "id": "two_truths",
+    "title": "嘘つきは誰だ？（2つの真実と1つの嘘）",
+    "summary": "本当のこと2つと嘘1つで自己紹介。質問で嘘を見抜く心理戦！",
+    "minutes": "約10〜15分",
+    "excitement": 4,
+    "preparation": "なし",
+    "people": ["small", "medium"],
+    "audiences": ["elem_high", "junior_high", "high_school", "student", "business", "mixed"],
+    "venues": ["seated", "medium_space"],
+    "steps": [
+      { "title": "3つの自己紹介を考える", "description": "自分について「本当のこと2つ」と「真っ赤な嘘1つ」を頭の中で考えます。", "symbol": "lightbulb.fill" },
+      { "title": "発表＆質問タイム", "description": "3つを発表したら、周りの人が質問して嘘を見破ろうとします。", "symbol": "questionmark.bubble.fill" },
+      { "title": "せーので指差し＆正解発表", "description": "「嘘だと思うのはどれ？」で一斉に指さし、正解を発表します。", "symbol": "checkmark.seal.fill" }
+    ],
+    "hostTip": "考える時間を1分取ると、話すのが苦手な人も参加しやすくなります。",
+    "topics": [
+      { "text": "フリーテーマ（自分のことなら何でも3つ）" },
+      { "text": "これまでに行った場所・旅行" },
+      { "text": "好きな食べ物・苦手な食べ物" },
+      { "text": "子どものころの思い出" },
+      { "text": "仕事・アルバイトでの体験", "audiences": ["student", "business", "mixed"] },
+      { "text": "得意なこと・特技" }
+    ]
+  },
+  {
+    "id": "janken_train",
+    "title": "じゃんけん列車",
+    "summary": "歩いてじゃんけん、負けたら後ろにつながる！最後は全員が1つの長い列車に。",
+    "minutes": "約10分",
+    "excitement": 5,
+    "preparation": "音楽や手拍子（なくてもOK）",
+    "people": ["medium", "large"],
+    "audiences": ["preschool", "elem_low", "elem_high", "junior_high", "student", "family", "mixed"],
+    "venues": ["wide", "outdoor"],
+    "steps": [
+      { "title": "自由に歩き回ろう", "description": "音楽や手拍子に合わせて、会場の中を自由に歩き回ります。", "symbol": "figure.walk" },
+      { "title": "近くの人とじゃんけん", "description": "合図で止まったら近くの人とじゃんけん。負けた人は勝った人の後ろで肩をつかみます。", "symbol": "hand.raised.fingers.spread.fill" },
+      { "title": "全員が1つの列車に", "description": "繰り返して最後の決勝戦！先頭になったチャンピオンを全員で称えます。", "symbol": "trophy.fill" }
+    ],
+    "hostTip": "小さい子がいるときは走らないルールを最初に伝えておくと安全です。",
+    "topics": [
+      { "text": "ノーマルルール（勝ったら先頭、負けたら後ろに連結）" },
+      { "text": "あいさつ付き（じゃんけん前に「こんにちは」と握手）" },
+      { "text": "自己紹介付き（勝った人が名前を言う）", "audiences": ["elem_high", "junior_high", "student", "mixed"] },
+      { "text": "動物の鳴き声で歩く（ゾウ・ネコなど）", "audiences": ["preschool", "elem_low", "family"] },
+      { "text": "後ろの人もいっしょにじゃんけんの手を出す" }
+    ]
+  },
+  {
+    "id": "telepathy",
+    "title": "せーので一致！以心伝心ゲーム",
+    "summary": "準備ゼロ・どこでもOK。お題に対して全員の答えがそろうかチャレンジ！",
+    "minutes": "約5〜10分",
+    "excitement": 4,
+    "preparation": "なし（紙とペンがあると盛り上がる）",
+    "people": ["small", "medium", "large"],
+    "audiences": ["preschool", "elem_low", "elem_high", "junior_high", "high_school", "student", "business", "family", "mixed"],
+    "venues": ["seated", "medium_space", "outdoor"],
+    "steps": [
+      { "title": "司会がお題を出す", "description": "「〇〇といえば？」とみんなに発表します。", "symbol": "megaphone.fill" },
+      { "title": "5秒シンキングタイム", "description": "みんなが選びそうな「ド定番」を頭の中で思い浮かべます。相談はNG！", "symbol": "brain.head.profile" },
+      { "title": "「せーの！」で同時に答える", "description": "全員で同時に答えを発表。全員一致なら大歓声！バラバラでも笑いが起きます。", "symbol": "person.3.sequence.fill" }
+    ],
+    "hostTip": "最初は答えがそろいやすい簡単なお題から始めると盛り上がります。",
+    "topics": [
+      { "text": "「赤い食べ物」といえば？" },
+      { "text": "「夏」といえば？" },
+      { "text": "「動物園の人気者」といえば？", "audiences": ["preschool", "elem_low", "elem_high", "family"] },
+      { "text": "「おにぎりの具」といえば？" },
+      { "text": "「月曜日の朝」といえば？", "audiences": ["high_school", "student", "business", "mixed"] },
+      { "text": "「会議でよく聞く言葉」といえば？", "audiences": ["business"] },
+      { "text": "「学校の行事」といえば？", "audiences": ["elem_low", "elem_high", "junior_high", "high_school"] },
+      { "text": "「丸いもの」といえば？" }
+    ]
+  },
+  {
+    "id": "mojyu_gari",
+    "title": "猛獣狩りに行こうよ！",
+    "summary": "動物の名前の文字数と同じ人数で、急いで仲間を集めるグループ作りゲーム！",
+    "minutes": "約10分",
+    "excitement": 5,
+    "preparation": "なし",
+    "people": ["medium", "large"],
+    "audiences": ["preschool", "elem_low", "elem_high", "junior_high", "student", "family", "mixed"],
+    "venues": ["wide", "outdoor"],
+    "steps": [
+      { "title": "掛け声でテンションUP", "description": "司会「猛獣狩りに行こうよ！」→みんなも同じように元気に真似します。", "symbol": "megaphone.fill" },
+      { "title": "動物の名前を発表", "description": "司会が動物の名前を叫んだら、その文字数を数えます（ラ・イ・オ・ン＝4文字）。", "symbol": "pawprint.fill" },
+      { "title": "その人数で集まって座る", "description": "文字数と同じ人数で手をつないで座ります。集まったグループで自己紹介！", "symbol": "person.3.fill" }
+    ],
+    "hostTip": "次の活動のグループ分けにそのまま使えるので、班決めの前にぴったりです。",
+    "topics": [
+      { "text": "「ラ・イ・オ・ン」（4文字→4人組）" },
+      { "text": "「ゴ・リ・ラ」（3文字→3人組）" },
+      { "text": "「カ・バ」（2文字→ペア）" },
+      { "text": "「チ・ン・パ・ン・ジ・ー」（6文字→6人組）" },
+      { "text": "「オ・ラ・ン・ウ・ー・タ・ン」（7文字→7人組）", "audiences": ["elem_high", "junior_high", "student", "mixed"] }
+    ]
+  },
+  {
+    "id": "drawing_relay",
+    "title": "お絵かき伝言ゲーム",
+    "summary": "言葉→絵→言葉と紙を回して、最初のお題とどれだけ変わるか楽しもう！",
+    "minutes": "約15分",
+    "excitement": 4,
+    "preparation": "紙とペン（人数分）",
+    "people": ["small", "medium"],
+    "audiences": ["elem_low", "elem_high", "junior_high", "high_school", "student", "business", "family", "mixed"],
+    "venues": ["seated", "medium_space"],
+    "steps": [
+      { "title": "紙とペンを持って並ぶ", "description": "先頭の人がお題を見て、15秒以内でイラストを描き、次の人にだけ見せます。", "symbol": "pencil.and.scribble" },
+      { "title": "絵を見て次の人へリレー", "description": "見た絵が何だったか予想して、次の人にまた絵で伝えていきます。", "symbol": "arrow.right.circle.fill" },
+      { "title": "最後の人が答えを発表", "description": "最後の人が何の絵だったか発表！途中の絵もみんなで見せ合います。", "symbol": "photo.on.rectangle.angled" }
+    ],
+    "hostTip": "「絵が下手なほど盛り上がる」と最初に伝えると、苦手な人も安心して描けます。",
+    "topics": [
+      { "text": "カッパ" },
+      { "text": "サンタクロース" },
+      { "text": "ソフトクリーム" },
+      { "text": "東京タワー" },
+      { "text": "うちの会社のロゴ", "audiences": ["business"] },
+      { "text": "担任の先生の顔", "audiences": ["elem_low", "elem_high", "junior_high", "high_school"] }
+    ]
+  },
+  {
+    "id": "late_janken",
+    "title": "後出しじゃんけん",
+    "summary": "司会の手を見てから「勝つ」「負ける」を出すだけ。頭がこんがらがって笑顔に！",
+    "minutes": "約5分",
+    "excitement": 3,
+    "preparation": "なし",
+    "people": ["small", "medium", "large"],
+    "audiences": ["preschool", "elem_low", "elem_high", "junior_high", "business", "family", "mixed"],
+    "venues": ["seated", "medium_space"],
+    "steps": [
+      { "title": "司会が先に手を出す", "description": "「じゃんけんぽん！」で司会が先にグー・チョキ・パーのどれかを出します。", "symbol": "hand.raised.fill" },
+      { "title": "「ぽん！」で後出し", "description": "みんなは司会の手を見てから「ぽん！」で勝つ手を出します。", "symbol": "hand.thumbsup.fill" },
+      { "title": "ルールを変えてレベルUP", "description": "慣れたら「負ける手」「あいこ」にルールを変えて、どんどんスピードアップ！", "symbol": "bolt.fill" }
+    ],
+    "hostTip": "オンラインでもカメラ越しにできます。まちがえた人を責めずに笑いに変えるのがコツ。",
+    "topics": [
+      { "text": "レベル1：司会に「勝つ」手を出す" },
+      { "text": "レベル2：司会に「負ける」手を出す" },
+      { "text": "レベル3：司会と「あいこ」になる手を出す" },
+      { "text": "レベル4：勝つ・負けるを交互に切り替える", "audiences": ["elem_high", "junior_high", "business", "mixed"] },
+      { "text": "足じゃんけんバージョン（座ったまま足で）", "audiences": ["preschool", "elem_low", "family"] }
+    ]
+  },
+  {
+    "id": "name_relay",
+    "title": "名前リレー自己紹介",
+    "summary": "前の人の名前を全部言ってから自分の名前を言う、記憶力チャレンジ！",
+    "minutes": "約10分",
+    "excitement": 3,
+    "preparation": "なし",
+    "people": ["small", "medium"],
+    "audiences": ["elem_low", "elem_high", "junior_high", "high_school", "student", "business", "family", "mixed"],
+    "venues": ["seated", "medium_space"],
+    "steps": [
+      { "title": "輪になって座る", "description": "全員の顔が見えるように輪になります。最初の人を決めます。", "symbol": "circle.dashed" },
+      { "title": "名前＋ひとことで自己紹介", "description": "「〇〇が好きな△△です」と、好きなもの＋名前を言います。", "symbol": "person.wave.2.fill" },
+      { "title": "前の人を全部言ってからリレー", "description": "次の人は「〇〇が好きな△△さんの隣の…」と前の人を全部言ってから自分を紹介！", "symbol": "arrow.triangle.2.circlepath" }
+    ],
+    "hostTip": "最後の人が大変なので、つまったら周りがヒントを出してOKにすると温かい雰囲気になります。",
+    "topics": [
+      { "text": "好きな食べ物＋名前" },
+      { "text": "最近ハマっていること＋名前" },
+      { "text": "好きな動物＋名前", "audiences": ["elem_low", "elem_high", "family"] },
+      { "text": "行ってみたい国＋名前" },
+      { "text": "担当している仕事＋名前", "audiences": ["business"] }
+    ]
+  },
+  {
+    "id": "this_or_that",
+    "title": "どっちが好き？二択移動ゲーム",
+    "summary": "「AとBどっち？」で会場の右と左に移動。同じ答えの人と自然に話せる！",
+    "minutes": "約10分",
+    "excitement": 4,
+    "preparation": "なし（左右の目印があると便利）",
+    "people": ["medium", "large"],
+    "audiences": ["preschool", "elem_low", "elem_high", "junior_high", "high_school", "student", "business", "family", "mixed"],
+    "venues": ["medium_space", "wide", "outdoor"],
+    "steps": [
+      { "title": "会場の左右を決める", "description": "「右側がA、左側がB」と場所を決めて、全員を真ん中に集めます。", "symbol": "arrow.left.arrow.right" },
+      { "title": "二択のお題で移動", "description": "司会がお題を読み上げたら、自分の答えの側へ移動します。", "symbol": "figure.walk" },
+      { "title": "同じ側の人とひとこと", "description": "移動した先で近くの人と「なんでそっち？」を30秒話します。", "symbol": "bubble.left.and.bubble.right.fill" }
+    ],
+    "hostTip": "少数派になった人に理由を聞くと、一番盛り上がります。",
+    "topics": [
+      { "text": "朝ごはんは「ごはん派」？「パン派」？" },
+      { "text": "「犬派」？「猫派」？" },
+      { "text": "「夏」と「冬」どっちが好き？" },
+      { "text": "「きのこの山」と「たけのこの里」どっち？" },
+      { "text": "仕事は「朝型」？「夜型」？", "audiences": ["student", "business", "mixed"] },
+      { "text": "「すべり台」と「ブランコ」どっちが好き？", "audiences": ["preschool", "elem_low", "family"] }
+    ]
+  },
+  {
+    "id": "tail_tag",
+    "title": "しっぽ取りゲーム",
+    "summary": "腰につけたしっぽを取り合う鬼ごっこ。走って笑って一気に打ち解ける！",
+    "minutes": "約10分",
+    "excitement": 5,
+    "preparation": "しっぽ（タオル・はちまき・新聞紙など人数分）",
+    "people": ["small", "medium", "large"],
+    "audiences": ["preschool", "elem_low", "elem_high", "junior_high", "family", "mixed"],
+    "venues": ["wide", "outdoor"],
+    "steps": [
+      { "title": "しっぽをつける", "description": "タオルなどをズボンの後ろにはさんで、しっぽにします。", "symbol": "tshirt.fill" },
+      { "title": "合図で取り合いスタート", "description": "制限時間内に、ほかの人のしっぽを取りに行きます。取られても続けてOK。", "symbol": "figure.run" },
+      { "title": "取った数を発表", "description": "終了の合図で、何本取れたか発表！一番多い人がチャンピオン。", "symbol": "trophy.fill" }
+    ],
+    "hostTip": "親子のときは「大人はひざ歩き」などハンデをつけると、子どもが大活躍できます。",
+    "topics": [
+      { "text": "ノーマル：全員が敵（個人戦）" },
+      { "text": "チーム戦：色ごとに分かれてしっぽを集める" },
+      { "text": "親子ペア戦：手をつないだまま取り合う", "audiences": ["preschool", "elem_low", "family"] },
+      { "text": "取られたら鬼チームに変身するルール", "audiences": ["elem_high", "junior_high", "mixed"] }
+    ]
+  },
+  {
+    "id": "name_ball",
+    "title": "名前呼びボールパス",
+    "summary": "相手の名前を呼んでからボールを投げるだけ。自然に全員の名前を覚えられる！",
+    "minutes": "約5〜10分",
+    "excitement": 3,
+    "preparation": "やわらかいボール（丸めたタオルでもOK）",
+    "people": ["small", "medium"],
+    "audiences": ["preschool", "elem_low", "elem_high", "junior_high", "high_school", "student", "business", "family", "mixed"],
+    "venues": ["medium_space", "wide", "outdoor"],
+    "steps": [
+      { "title": "輪になって名前を言う", "description": "全員で輪になり、1人ずつ呼んでほしい名前を言います。", "symbol": "circle.dashed" },
+      { "title": "名前を呼んでパス", "description": "「〇〇さん！」と名前を呼んでから、その人にボールを投げます。", "symbol": "figure.handball" },
+      { "title": "ボールを増やしてレベルUP", "description": "慣れたらボールを2個、3個と増やしてスピードアップ！", "symbol": "plus.circle.fill" }
+    ],
+    "hostTip": "小さい子には「転がしてパス」にすると安全に楽しめます。",
+    "topics": [
+      { "text": "ノーマル：名前を呼んでパス" },
+      { "text": "「ありがとう〇〇さん」と受け取ってから次へ" },
+      { "text": "好きな食べ物を言ってからパス" },
+      { "text": "ボール2個同時スタート", "audiences": ["elem_high", "junior_high", "high_school", "student", "business", "mixed"] },
+      { "text": "転がしてパス（小さい子向け）", "audiences": ["preschool", "elem_low", "family"] }
+    ]
+  },
+  {
+    "id": "human_knot",
+    "title": "人間知恵の輪",
+    "summary": "からまった手を、手をつないだままほどいていく協力ゲーム。チームワークが一気に高まる！",
+    "minutes": "約10分",
+    "excitement": 4,
+    "preparation": "なし",
+    "people": ["small", "medium"],
+    "audiences": ["elem_high", "junior_high", "high_school", "student", "business", "mixed"],
+    "venues": ["medium_space", "wide", "outdoor"],
+    "steps": [
+      { "title": "輪になって手を伸ばす", "description": "5〜8人で輪になり、両手を前に出します。", "symbol": "circle.dashed" },
+      { "title": "ばらばらの人と手をつなぐ", "description": "右手と左手で、それぞれ隣ではない別の人と手をつなぎます。", "symbol": "hands.and.sparkles.fill" },
+      { "title": "手を離さずにほどく", "description": "手を離さずにくぐったりまたいだりして、きれいな1つの輪に戻せたらクリア！", "symbol": "checkmark.seal.fill" }
+    ],
+    "hostTip": "体が触れ合うので、苦手な人がいそうなときは「ハンカチを持ってつなぐ」ルールにしましょう。",
+    "topics": [
+      { "text": "ノーマル：手を離さずに1つの輪に戻す" },
+      { "text": "制限時間3分チャレンジ" },
+      { "text": "しゃべってはいけないルール" },
+      { "text": "ハンカチを持ってつなぐ（体の接触を減らす）" }
+    ]
+  },
+  {
+    "id": "good_and_new",
+    "title": "グッド＆ニュー",
+    "summary": "24時間以内にあった「良かったこと・新しいこと」を1人30秒で共有。前向きな空気に！",
+    "minutes": "約5〜10分",
+    "excitement": 2,
+    "preparation": "なし（ボールなど話す人の目印があると◎）",
+    "people": ["small", "medium"],
+    "audiences": ["junior_high", "high_school", "student", "business", "mixed"],
+    "venues": ["seated", "medium_space"],
+    "steps": [
+      { "title": "ルールを説明", "description": "「最近あった良かったこと・新しいことを1人30秒で話します」と伝えます。", "symbol": "text.bubble.fill" },
+      { "title": "1人ずつ発表", "description": "話す人は目印を持って発表。小さなことでOK！", "symbol": "person.wave.2.fill" },
+      { "title": "全員で拍手", "description": "1人話し終わるごとに全員で拍手。次の人に目印を渡します。", "symbol": "hands.clap.fill" }
+    ],
+    "hostTip": "司会が最初に「小さな良かったこと」を話すと、ハードルが下がります。",
+    "topics": [
+      { "text": "24時間以内にあった良かったこと" },
+      { "text": "最近はじめて知ったこと" },
+      { "text": "最近おいしかったもの" },
+      { "text": "今週がんばったこと" },
+      { "text": "最近の仕事でうれしかったこと", "audiences": ["business"] }
+    ]
+  },
+  {
+    "id": "word_wolf",
+    "title": "ワードウルフ",
+    "summary": "1人だけ違うお題を持つ「ウルフ」を、会話から見つけ出す推理ゲーム！",
+    "minutes": "約10〜15分",
+    "excitement": 4,
+    "preparation": "お題を書いた紙（スマホで1人ずつ見せてもOK）",
+    "people": ["small", "medium"],
+    "audiences": ["elem_high", "junior_high", "high_school", "student", "business", "family", "mixed"],
+    "venues": ["seated", "medium_space"],
+    "steps": [
+      { "title": "こっそりお題を配る", "description": "4〜6人のうち1人だけに、少し違うお題（例：りんご／なし）を配ります。", "symbol": "envelope.fill" },
+      { "title": "お題について3分トーク", "description": "お題の名前は言わずに「好き？」「どこで買う？」など話し合います。", "symbol": "bubble.left.and.bubble.right.fill" },
+      { "title": "ウルフを投票", "description": "「せーの」で怪しい人を指さし。ウルフを当てられたら多数派の勝ち！", "symbol": "hand.point.right.fill" }
+    ],
+    "hostTip": "最初の1回は司会が進行役になり、ルールに慣れてからグループごとに分かれましょう。",
+    "topics": [
+      { "text": "りんご／なし" },
+      { "text": "海／プール" },
+      { "text": "カレー／シチュー" },
+      { "text": "コーヒー／紅茶", "audiences": ["high_school", "student", "business", "mixed"] },
+      { "text": "運動会／遠足", "audiences": ["elem_high", "junior_high", "family"] },
+      { "text": "会議／打ち合わせ", "audiences": ["business"] }
+    ]
+  },
+  {
+    "id": "hand_play",
+    "title": "手遊び「グーチョキパーでなにつくろう」",
+    "summary": "座ったまま手の形で動物や乗り物を作る、小さな子にぴったりの手遊び！",
+    "minutes": "約5分",
+    "excitement": 3,
+    "preparation": "なし",
+    "people": ["small", "medium", "large"],
+    "audiences": ["preschool", "elem_low", "family"],
+    "venues": ["seated", "medium_space"],
+    "steps": [
+      { "title": "歌いながら手を動かす", "description": "「グーチョキパーで、グーチョキパーで、なにつくろう♪」と歌います。", "symbol": "music.note" },
+      { "title": "手の形で何かを作る", "description": "「右手はチョキで、左手もチョキで、かにさん！」のように形を作ります。", "symbol": "hand.raised.fingers.spread.fill" },
+      { "title": "子どもからアイデア募集", "description": "慣れたら「何を作りたい？」と聞いて、子どものアイデアで作ります。", "symbol": "lightbulb.fill" }
+    ],
+    "hostTip": "大人が大げさに楽しそうにやると、子どもも真似して参加してくれます。",
+    "topics": [
+      { "text": "チョキ＋チョキで「かにさん」" },
+      { "text": "パー＋グーで「ヘリコプター」" },
+      { "text": "グー＋チョキで「かたつむり」" },
+      { "text": "パー＋パーで「ちょうちょ」" },
+      { "text": "子どもが考えた形で作る" }
+    ]
+  },
+  {
+    "id": "human_bingo",
+    "title": "人間ビンゴ",
+    "summary": "「〇〇な人」を探してサインをもらうビンゴ。歩き回って自然に会話が生まれる！",
+    "minutes": "約15分",
+    "excitement": 4,
+    "preparation": "ビンゴカード（3×3のマスに「〇〇な人」を書いたもの）とペン",
+    "people": ["medium", "large"],
+    "audiences": ["elem_high", "junior_high", "high_school", "student", "business", "family", "mixed"],
+    "venues": ["medium_space", "wide", "outdoor"],
+    "steps": [
+      { "title": "ビンゴカードを配る", "description": "マスに「犬を飼っている人」などの条件が書かれたカードを配ります。", "symbol": "square.grid.3x3.fill" },
+      { "title": "当てはまる人を探す", "description": "歩き回って質問し、当てはまる人にマスへサインをもらいます（1人1マスまで）。", "symbol": "magnifyingglass" },
+      { "title": "そろったら「ビンゴ！」", "description": "縦・横・ななめがそろったら大きな声で「ビンゴ！」。最初の3人に拍手！", "symbol": "star.fill" }
+    ],
+    "hostTip": "カードの条件は「答えやすくて会話が広がるもの」を選ぶと盛り上がります。",
+    "topics": [
+      { "text": "定番：犬を飼っている／朝ごはんはパン／きょうだいがいる" },
+      { "text": "旅行編：北海道に行ったことがある／海外に行ったことがある" },
+      { "text": "好きなもの編：辛いものが好き／カラオケが好き" },
+      { "text": "仕事編：在宅勤務をしたことがある／転職経験がある", "audiences": ["business"] },
+      { "text": "学校編：部活が運動部／給食で好きなメニューがある", "audiences": ["elem_high", "junior_high", "high_school", "family"] }
+    ]
+  },
+  {
+    "id": "anything_basket",
+    "title": "なんでもバスケット",
+    "summary": "「〇〇な人！」に当てはまる人が席を移動。イスがなくても床の目印でできる！",
+    "minutes": "約10〜15分",
+    "excitement": 5,
+    "preparation": "イス（または床の目印）を人数より1つ少なく",
+    "people": ["medium", "large"],
+    "audiences": ["preschool", "elem_low", "elem_high", "junior_high", "high_school", "student", "business", "family", "mixed"],
+    "venues": ["medium_space", "wide"],
+    "steps": [
+      { "title": "イスを丸く並べる", "description": "人数より1つ少ないイスを円に並べ、鬼を1人決めて真ん中に立ちます。", "symbol": "chair.fill" },
+      { "title": "鬼が「〇〇な人！」", "description": "鬼が「メガネの人！」などと言ったら、当てはまる人は別の席へ移動します。", "symbol": "megaphone.fill" },
+      { "title": "座れなかった人が次の鬼", "description": "鬼も空いた席に座ります。座れなかった人が次の鬼になって続けます。", "symbol": "arrow.triangle.2.circlepath" }
+    ],
+    "hostTip": "「ぶつからないよう歩いて移動」を最初に約束して、安全に楽しみましょう。",
+    "topics": [
+      { "text": "今日、朝ごはんを食べた人！" },
+      { "text": "青い服を着ている人！" },
+      { "text": "犬より猫が好きな人！" },
+      { "text": "今月が誕生日の人！" },
+      { "text": "今日、電車で来た人！", "audiences": ["high_school", "student", "business", "mixed"] },
+      { "text": "ブロッコリーが好きな人！", "audiences": ["preschool", "elem_low", "family"] }
+    ]
+  },
+  {
+    "id": "photo_intro",
+    "title": "スマホ写真1枚で自己紹介",
+    "summary": "スマホの中のお気に入り写真1枚を見せながら話す、話題に困らない自己紹介！",
+    "minutes": "約10〜15分",
+    "excitement": 3,
+    "preparation": "各自のスマホ",
+    "people": ["small", "medium"],
+    "audiences": ["high_school", "student", "business", "mixed"],
+    "venues": ["seated", "medium_space"],
+    "steps": [
+      { "title": "写真を1枚選ぶ", "description": "お題に合う写真を1分で1枚選びます（人に見せてOKなもの）。", "symbol": "photo.fill" },
+      { "title": "写真を見せて30秒トーク", "description": "名前を言ってから、写真を見せて「これは…」とエピソードを話します。", "symbol": "person.wave.2.fill" },
+      { "title": "質問を1つずつ", "description": "聞いていた人から1つ質問をして、会話を広げます。", "symbol": "questionmark.bubble.fill" }
+    ],
+    "hostTip": "写真がない人は「話だけでもOK」と伝えておくと安心して参加できます。",
+    "topics": [
+      { "text": "最近撮ったお気に入りの1枚" },
+      { "text": "最近食べたおいしいもの" },
+      { "text": "好きな場所・景色" },
+      { "text": "推し・ハマっているもの" },
+      { "text": "仕事道具やデスク周り", "audiences": ["business"] }
+    ]
+  },
+  {
+    "id": "daruma",
+    "title": "だるまさんがころんだ",
+    "summary": "みんな知ってる定番遊び。ルールの説明がいらないので年齢がバラバラでもすぐ遊べる！",
+    "minutes": "約10分",
+    "excitement": 4,
+    "preparation": "なし",
+    "people": ["small", "medium", "large"],
+    "audiences": ["preschool", "elem_low", "elem_high", "family", "mixed"],
+    "venues": ["wide", "outdoor"],
+    "steps": [
+      { "title": "鬼とスタートラインを決める", "description": "鬼は壁や木の前に立ち、ほかの人は離れたスタートラインに並びます。", "symbol": "flag.fill" },
+      { "title": "「だるまさんがころんだ」", "description": "鬼が後ろを向いて唱えている間に近づき、振り向いたらピタッと止まります。", "symbol": "figure.stand" },
+      { "title": "鬼にタッチして逃げる", "description": "動いた人は鬼につかまります。鬼にタッチできたら、みんなで逃げよう！", "symbol": "figure.run" }
+    ],
+    "hostTip": "「だるまさんが〇〇した」で鬼が動きを指定するアレンジにすると、さらに盛り上がります。",
+    "topics": [
+      { "text": "ノーマルルール" },
+      { "text": "「だるまさんが〇〇した」の動きまねバージョン" },
+      { "text": "親子で手をつないで進むバージョン", "audiences": ["preschool", "elem_low", "family"] },
+      { "text": "鬼が2人のハードモード", "audiences": ["elem_high", "mixed"] }
+    ]
+  },
+  {
+    "id": "paper_tower",
+    "title": "ペーパータワー",
+    "summary": "紙だけでどれだけ高いタワーを作れるか競うチーム戦。作戦会議で一気に仲良く！",
+    "minutes": "約15〜20分",
+    "excitement": 4,
+    "preparation": "A4の紙（1チーム20枚程度）、メジャー",
+    "people": ["small", "medium", "large"],
+    "audiences": ["elem_high", "junior_high", "high_school", "student", "business", "family", "mixed"],
+    "venues": ["seated", "medium_space"],
+    "steps": [
+      { "title": "チームと作戦会議", "description": "3〜5人のチームに分かれ、紙を配ります。最初の3分は紙に触らず作戦会議！", "symbol": "person.3.fill" },
+      { "title": "制限時間でタワー作り", "description": "5分間で、紙を折ったり丸めたりしてできるだけ高いタワーを作ります。", "symbol": "building.2.fill" },
+      { "title": "高さを測って発表", "description": "終了後、10秒間倒れなかったタワーの高さを測ってチームごとに発表！", "symbol": "ruler.fill" }
+    ],
+    "hostTip": "終わったあとに「うまくいった理由」をチームで振り返ると、研修にもつながります。",
+    "topics": [
+      { "text": "ノーマル：紙だけで一番高いタワー" },
+      { "text": "しゃべってはいけないルール" },
+      { "text": "紙10枚だけの省エネルール" },
+      { "text": "てっぺんにペンを1本のせても倒れないタワー" }
+    ]
+  }
+]

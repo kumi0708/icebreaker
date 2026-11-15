@@ -1,0 +1,11 @@
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+.DS_Store
+
+# Android の署名鍵（絶対に公開しない）
+*.jks
+*.keystore
+key.properties
+android/keystore/
